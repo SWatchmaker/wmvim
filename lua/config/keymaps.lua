@@ -4,5 +4,5 @@
 
 local map = vim.keymap.set
 
-map({ "i" }, "<D-s>", "<C-o>:w<CR>", { desc = "Save file" })
+map({ "i" }, "<D-s>", "<C-s>", { desc = "Save file", remap = true })
 map({ "n" }, "<D-s>", ":w<CR>", { desc = "Save file" })
